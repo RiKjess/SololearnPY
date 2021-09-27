@@ -1,6 +1,6 @@
 import re
 
-number = input()
+number = input("Enter your phone number: ")
 
 def new_func(number):
     pattent = r"^(1|8|9)\d{7}$"
